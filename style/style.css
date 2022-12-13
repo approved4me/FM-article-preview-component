@@ -16,14 +16,14 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 article {
-margin: 1rem;
+margin: 0.5rem;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    width: 375px;
+    max-width: 375px;
     overflow: hidden;
     border-radius: 10px;
     background: #fff;
@@ -136,7 +136,7 @@ p {
 @media only screen and (min-width: 768px) {
     .container {
         flex-direction: row;
-        width: 730px;
+        max-width: 730px;
         overflow: visible;
     }
 
