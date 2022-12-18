@@ -65,7 +65,7 @@ margin: 0.5rem;
 .share {
     border-radius: 50%;
     margin-bottom: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
     z-index: 1;
     background: hsl(210, 46%, 95%);
     display: table-cell;
@@ -83,7 +83,6 @@ margin: 0.5rem;
     bottom: 0;
     height: 0;
     width: 100%;
-    padding-left: 40px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -93,7 +92,7 @@ margin: 0.5rem;
 .active {
     bottom: 0;
     height: 100%;
-    padding: 40px;
+    padding: 40px 20px;
 }
 /* .share:hover + .user_social {
     bottom: 0;
